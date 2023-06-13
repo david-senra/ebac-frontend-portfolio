@@ -8,4 +8,9 @@ export const Botao = styled.a`
   display: inline-block;
   padding: 8px;
   margin-top: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: blue;
+  }
 `
