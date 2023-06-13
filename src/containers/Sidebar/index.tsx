@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import Titulo from '../../components/Titulo'
 
 const SideBar = () => (
