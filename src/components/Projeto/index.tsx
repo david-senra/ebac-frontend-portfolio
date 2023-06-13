@@ -7,7 +7,7 @@ import { Botao } from './styles'
 //Dá pra colocar o componente aqui mesmo, o arquivo "styles" é opcional.
 
 const Card = styled.div`
-  border: solid 1px #c1c1c1;
+  border: solid 1px ${(props) => props.theme.corDaBorda};
   padding: 16px;
 `
 

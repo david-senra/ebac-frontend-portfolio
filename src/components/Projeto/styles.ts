@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Botao = styled.a`
-  background-color: #4476bf;
-  color: #fff;
+  background-color: ${(props) => props.theme.corDeFundoBotao};
+  color: ${(props) => props.theme.corDeFundo};
   font-size: 14px;
   text-decoration: none;
   display: inline-block;
@@ -11,6 +11,6 @@ export const Botao = styled.a`
   cursor: pointer;
 
   &:hover {
-    background-color: blue;
+    background-color: ${(props) => props.theme.corHoverBotao};
   }
 `
